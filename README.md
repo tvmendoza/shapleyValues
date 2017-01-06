@@ -1,6 +1,6 @@
 # Shapley Values Calculator
 
-Shapley Values calculator is a file that reads a python file with different criteria and calculates the shappley values.  
+Shapley Values calculator is a file that reads a json file with different criteria and calculates the shappley values.  
 
 
 ## Usage Instructions
@@ -20,37 +20,44 @@ Sample input data should be a json file with two or more labeled alternatives, o
             "Colonoscopy:": 0.1,
             "Flexible Sigmoidoscopy:": 0.6
         },
+        
         "Further Testing": {
             "FIT:": 1.0,
             "Colonoscopy:": 1.0,
             "Flexible Sigmoidoscopy:": 1.0
         },
+        
         "Test Preparation": {
             "FIT:": 1.0,
             "Colonoscopy:": 1.0,
             "Flexible Sigmoidoscopy:": 1.0
         },
+        
         "Time": {
             "FIT:": 1.0,
             "Colonoscopy:": 1.0,
             "Flexible Sigmoidoscopy:": 1.0
         }
-    },{
+    },
+    {
         "Cost": {
             "FIT:": 0.1,
             "Colonoscopy:": 1.0,
             "Flexible Sigmoidoscopy:": 1.0
         },
+        
         "Further Testing": {
             "FIT:": 1.0,
             "Colonoscopy:": 1.0,
             "Flexible Sigmoidoscopy:": 1.0
         },
+        
         "Test Preparation": {
             "FIT:": 1.0,
             "Colonoscopy:": 1.0,
             "Flexible Sigmoidoscopy:": 1.0
         },
+        
         "Time": {
             "FIT:": 1.0,
             "Colonoscopy:": 1.0,
