@@ -1,5 +1,3 @@
-# Created by Tona Mendoza on 01/04/17.
-# Copyright © 2017 UF Biomedical Informatics mHealth Lab.
 import itertools
 import random
 import operator
@@ -11,6 +9,8 @@ from decimal import Decimal
 import sys
 import argparse
 import string
+# Created by Tona Mendoza on 01/04/17.
+# Copyright © 2017 UF Biomedical Informatics mHealth Lab.
 
 namesDict = {}
 averageDict = {}
